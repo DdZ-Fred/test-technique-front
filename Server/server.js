@@ -1,9 +1,14 @@
 import express from 'express';
+import cors from 'cors';
 import api from './api';
 
 const port = 9888;
-const app = express();
 const API_ROOT = `http://localhost:${port}/api`;
+
+const app = express();
+
+// To allow CrossOrigin Requests
+app.use(cors());
 
 app.use('/api', api);
 
