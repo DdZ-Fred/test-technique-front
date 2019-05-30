@@ -1,0 +1,10 @@
+.root {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(179, 179, 179, 0.7);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 4px;
+}

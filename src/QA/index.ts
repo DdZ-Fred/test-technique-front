@@ -1,3 +1,1 @@
-import QA from './QA';
-
-export default QA;
+export { QA as default } from './QA';
